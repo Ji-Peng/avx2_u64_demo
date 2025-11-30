@@ -4,9 +4,9 @@
 #include <immintrin.h> // AVX2
 #include <x86intrin.h> // rdtsc
 
-#define DATA_SIZE (1 << 18)
-#define WARMUP_ROUNDS 100
-#define TEST_ROUNDS 1000
+#define DATA_SIZE (1 << 20)
+#define WARMUP_ROUNDS 1000
+#define TEST_ROUNDS 10000
 
 // ---------------------------------------------------------
 // 计时工具: RDTSC
